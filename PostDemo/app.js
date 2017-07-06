@@ -8,9 +8,9 @@ app.get("/", function(req,res){
 });
 
 app.get("/friends", function(req, res){
-   var friends =[bob, kim, joe, chris, ross];
+   var friends =["bob", "kim", "joe", "chris", "ross"];
    
-   res.render("friendsPage.ejs");
+   res.render("friendsPage.ejs", {friends: friends});
    
 });
 
