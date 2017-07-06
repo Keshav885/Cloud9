@@ -3,3 +3,9 @@ body{
     color: black;
     font-family: helvetica;
 }
+
+.list{
+    border: 2px solid red;
+    color: white;
+    background-color: gray;
+}
