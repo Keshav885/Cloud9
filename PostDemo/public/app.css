@@ -8,4 +8,6 @@ body{
     border: 2px solid red;
     color: white;
     background-color: gray;
+    padding-top: 20px;
+    padding-bottom: 20px
 }
