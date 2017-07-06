@@ -2,15 +2,16 @@
 
 <h1>Check out your friends</h1>
 
-<ul>
+<ul class="body">
     <% for(var i=0; i<friends.length; i++){ %>
        <li> <%=friends[i].toUpperCase()%> </li>
         
    <% } %>
 </ul>
 
-<form action= "/friends" method="GET">
-    <input type="text" placeholder= "Enter Name">
+<form action= "/newfriend" method="POST">
+    
+    <input type="text" name="addnew" placeholder= "Enter Name">
     <button>ADD AS FRIEND</button>
     
 </form>
